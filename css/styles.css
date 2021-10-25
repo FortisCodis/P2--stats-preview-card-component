@@ -89,3 +89,51 @@ span.numbers{
 span{
     font-family: "Lexend Deca", sans-serif;
 }
+
+/* Responsive */
+@media (max-width: 376px) {
+    body {
+      margin: 0;
+    }
+    #main-container {
+      height: auto;
+      flex-direction: column-reverse;
+      justify-content: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    #card {
+     width: 325px;
+     height: 650px;
+     border-radius: 0 0 10px 10px;
+      
+      
+    }
+    #text {
+      margin: 0;
+      justify-content: center;
+      align-items: center;
+    }
+    #title {
+      text-align: center;
+      font-size: 1.4rem;
+    }
+    #para {
+      text-align: center;
+      width: 77%;
+    }
+    #stats-para {
+      flex-direction: column;
+    }
+    .stats {
+      margin: 0;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+    img {
+      width: 325px;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 0px;
+    }
+  }
