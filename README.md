@@ -20,7 +20,7 @@ In this challenge you should build out a card component and get it looking as cl
 
 ### Screenshot
 
-![screenshot](./images/screenshot.jpg)
+![screenshot](./images/screenshot.png)
 
 ### Links
 
